@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%)
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 40vh;
+    height: 70%;
+    text-align: center;
+    border-radius: 18px;
+}
+
+.card img {
+    width: 16em;
+    margin: 7px;
+    border-radius: 8px;
+}
+.card h3, .card p {
+    margin: 10px 27px;
+}
+.card p {
+    color: hsl(218, 44%, 22%);
+}
